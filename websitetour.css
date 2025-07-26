@@ -1,0 +1,129 @@
+*{
+   box-sizing: border-box;
+    list-style: none;
+}
+
+
+.container {
+  position: relative;
+  text-align: center;
+  margin-left: 0%;
+  margin-right: 0%;
+  color: rgb(0, 0, 0);
+  width: 100%;
+  height: 100%;
+  background-color: lightgoldenrodyellow;
+}
+
+.centered {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 60px;
+  left: 15px;
+}
+
+h1{
+    font-size: 60px;
+}
+
+p{
+    font-size: 20px;
+}
+
+nav{
+    color: aliceblue;
+    color: white;
+}
+
+a {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.menu-btn{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+
+.para {
+  position: absolute;
+  top: 15%;
+  left: 1%;
+ 
+}
+.cont{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.dest{
+  background-color: lightgoldenrodyellow;
+}
+.dest{
+  text-align: center;
+
+}
+
+
+@media screen and (max-width: 700px) {
+    nav{
+        flex-direction: column;
+    }
+    
+}
+
+.carousel-cell {
+    width: 66%;
+    margin-right: 10px;
+    border-radius: 5px;
+   
+  }
+
+.scroll{
+    width: 1000px;
+    height: 600px;
+    border-radius: 0%;
+}
+
+.font{
+    font-size:80px;
+    text-decoration: none;
+    color: black;
+}
+.a{
+  text-decoration: none;
+  color: white;
+}
+.a:hover{
+  color: white;
+}
+.div{
+  text-align: center;
+  color: black;
+
+}
+.foot{
+  color: black;
+}
